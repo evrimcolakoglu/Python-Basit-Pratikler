@@ -1,26 +1,7 @@
-""" 
-PYTHON PROJE #5
-- - - - - - - -
-Kullanıcının iki sayı girerek toplama, çıkarma, çarpma ve bölme işlemlerini yapabileceği bir
-hesap makinesi programı yazın. Program şu özelliklere sahip olmalıdır:
+while True: # Programın devamlı çalışır olmasını sağlar.
+    
+    #Metin Bölümü
 
-Kullanıcıya yapmak istediği işlemi seçmesi için bir menü sunulmalıdır:
-
-1. Toplama
-2. Çıkarma
-3. Çarpma
-4. Bölme
-5. Çıkış
-Kullanıcı geçerli bir işlem seçtikten sonra iki sayı girmesi istenmelidir.
-
-İşlem sonucu ekrana yazdırılmalıdır.
-
-Kullanıcı 5 girerek çıkış yapmadıkça program sürekli çalışmalıdır.
-
-Bölme işleminde sıfıra bölme durumu kontrol edilmelidir.
-"""
-
-while True:
     print(
     """
     While Hesap Makinesi
@@ -35,7 +16,9 @@ while True:
     """
     )
 
-    secim = input("(1-6) arasında bir sayı giriniz: ")
+    secim = input("(1-6) arasında bir sayı giriniz: ") #Kullanıcının belirleyeceği 1-6 arasındaki sayı için bir 'secim' değişkeni.
+
+    #If-Else Döngüsü
 
     if secim == "6":
         "Programdan başarıyla çıkıldı."
